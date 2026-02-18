@@ -21,4 +21,3 @@ with open(nome_arquivo, mode="a",newline="") as arquivo:
     escritor = csv.DictWriter(arquivo, fieldnames=colunas)
     escritor.writeheader()
     escritor.writerow(aluno)
-
